@@ -11,8 +11,15 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "GREEN Token - Join the Green Revolution",
-  description: "Fueling the Crypto Movement with Eco-Consciousness. Meme It, Green It, Own It!",
-  generator: "v0.app",
+  description: "GREEN MEME COIN, ONLY GREENS ALLOWED",
+  openGraph: {
+    images: [
+      {
+        url: "/moon.png",
+        alt: "Moon image",
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
