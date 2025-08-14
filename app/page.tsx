@@ -52,7 +52,7 @@ export default function HomePage() {
       <section className="py-20 px-6 bg-muted">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black mb-6 transform -rotate-1">
+            <h2 className="text-5xl md:text-6xl font-black text-green-500 mb-6 transform -rotate-1">
               INSIDE THE <span className="text-primary">GREEN</span> ECOSYSTEM
             </h2>
             <div className="bg-accent text-black font-bold text-xl px-8 py-4 neo-border-yellow neo-shadow-yellow inline-block transform rotate-2">
@@ -93,67 +93,51 @@ export default function HomePage() {
       <section className="py-20 px-6">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black mb-6 glitch-text">
-              <span className="text-primary">GREEN</span> TOKENOMICS
-            </h2>
-            <div className="bg-secondary text-white font-bold text-xl px-8 py-4 neo-border-pink neo-shadow-pink inline-block transform -rotate-1">
-              1 BILLION TOKENS OF PURE MARKET FUEL!
-            </div>
+              <h2 className="text-5xl md:text-6xl font-black mb-6 glitch-text">
+                <span className="text-green-500">GREEN</span> PRICE TRAJECTORY & MARKET SENTIMENT
+              </h2>
+              <div className="bg-secondary text-green-500 font-bold text-xl px-8 py-4 neo-border-pink neo-shadow-pink inline-block transform -rotate-1">
+                Where predictions meet hype: the journey of $GREEN!
+              </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div className="bg-black border-4 border-primary p-6 neo-shadow transform rotate-1">
-                <div className="flex justify-between items-center">
-                  <span className="font-black text-xl">TOTAL SUPPLY</span>
-                  <span className="text-primary font-black text-2xl">1B GREEN</span>
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <div className="bg-black border-4 border-primary p-6 neo-shadow transform rotate-1">
+                  <div className="font-black text-2xl mb-2 text-green-500">Initial Launch</div>
+                  <div className="text-white font-bold">Early adopters ignite the chart, sending $GREEN on its first moon mission.</div>
+                </div>
+                <div className="bg-black border-4 border-accent p-6 neo-shadow-yellow transform -rotate-1">
+                  <div className="font-black text-2xl mb-2 text-accent">Growth Phase</div>
+                  <div className="text-white font-bold">Community hype and utility fuel a steady climb, with memes and milestones driving momentum.</div>
+                </div>
+                <div className="bg-black border-4 border-secondary p-6 neo-shadow-pink transform rotate-2">
+                  <div className="font-black text-2xl mb-2 text-secondary">Market Corrections</div>
+                  <div className="text-white font-bold">Dips and volatility test diamond hands, but the GREEN army rallies for the next leg up.</div>
+                </div>
+                <div className="bg-black border-4 border-primary p-6 neo-shadow transform -rotate-2">
+                  <div className="font-black text-2xl mb-2 text-green-500">Long-Term Outlook</div>
+                  <div className="text-white font-bold">With every new partnership and meme drop, $GREEN aims for sustainable growth and legendary status.</div>
                 </div>
               </div>
+              <div className="text-center">
+                <div className="w-80 h-80 mx-auto bg-primary border-8 border-black flex items-center justify-center neo-shadow transform rotate-3 bounce-crazy">
+                  <div className="text-9xl">
 
-              <div className="bg-black border-4 border-accent p-6 neo-shadow-yellow transform -rotate-1">
-                <div className="flex justify-between items-center">
-                  <span className="font-black text-xl">LIQUIDITY POOL</span>
-                  <span className="text-accent font-black text-2xl">40%</span>
+                    <Image src={logo} alt="moon" width={400} height={400} />
+                  </div>
                 </div>
-              </div>
-
-              <div className="bg-black border-4 border-secondary p-6 neo-shadow-pink transform rotate-2">
-                <div className="flex justify-between items-center">
-                  <span className="font-black text-xl">COMMUNITY REWARDS</span>
-                  <span className="text-secondary font-black text-2xl">30%</span>
-                </div>
-              </div>
-
-              <div className="bg-black border-4 border-primary p-6 neo-shadow transform -rotate-2">
-                <div className="flex justify-between items-center">
-                  <span className="font-black text-xl">PUMP FUND</span>
-                  <span className="text-primary font-black text-2xl">20%</span>
-                </div>
-              </div>
-
-              <div className="bg-black border-4 border-accent p-6 neo-shadow-yellow transform rotate-1">
-                <div className="flex justify-between items-center">
-                  <span className="font-black text-xl">TEAM & DEV</span>
-                  <span className="text-accent font-black text-2xl">10%</span>
+                <div className="bg-accent text-black font-black text-xl px-8 py-4 neo-border-yellow neo-shadow-yellow inline-block transform -rotate-2 mt-8">
+                  The future is bright, the candles are green, and the sentiment is bullish!
                 </div>
               </div>
             </div>
-
-            <div className="text-center">
-              <div className="w-80 h-80 mx-auto bg-primary border-8 border-black flex items-center justify-center neo-shadow transform rotate-3 bounce-crazy">
-                <div className="text-9xl">📈</div>
-              </div>
-              <div className="bg-accent text-black font-black text-xl px-8 py-4 neo-border-yellow neo-shadow-yellow inline-block transform -rotate-2 mt-8">
-                BUILT FOR PUMPS, DESIGNED FOR PROFITS!
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
       <section className="py-20 px-6 bg-muted">
         <div className="container mx-auto text-center">
-          <h2 className="text-6xl md:text-7xl font-black mb-8 glitch-text">
+          <h2 className="text-6xl md:text-7xl font-black text-green-500 mb-8 glitch-text">
             READY TO RIDE THE <span className="text-primary">CANDLE</span>?
           </h2>
 
@@ -165,7 +149,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <Button
               size="lg"
-              className="bg-primary text-black font-black text-3xl px-16 py-8 neo-border neo-shadow neo-hover transform -rotate-2 bounce-crazy"
+              className="bg-primary text-green-500 font-black text-3xl px-16 py-8 neo-border neo-shadow neo-hover transform -rotate-2 bounce-crazy"
             >
               BUY GREEN NOW! 💵📈
             </Button>
@@ -184,9 +168,9 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="flex items-center gap-4 mb-6 md:mb-0">
               <div className="w-16 h-16 bg-primary text-black font-black text-2xl flex items-center justify-center neo-border neo-shadow transform rotate-3">
-                G
+                <Image src={logo} width={100} height={100} alt="logo" />
               </div>
-              <span className="text-4xl font-black text-primary glitch-text">GREEN</span>
+              <span className="text-4xl font-black text-white glitch-text">GREEN</span>
             </div>
             <div className="flex gap-8">
               <a href="#" className="text-white hover:text-primary font-black text-xl transition-colors transform hover:scale-110">
@@ -202,7 +186,7 @@ export default function HomePage() {
           </div>
 
           <div className="text-center">
-            <div className="bg-secondary text-white font-bold text-lg px-8 py-4 neo-border-pink neo-shadow-pink inline-block transform -rotate-1">
+            <div className="bg-secondary text-green-500 font-bold text-lg px-8 py-4 neo-border-pink neo-shadow-pink inline-block transform -rotate-1">
               © 2024 GREEN TOKEN • MAKING CHARTS GREENER ONE CANDLE AT A TIME! 📈
             </div>
           </div>

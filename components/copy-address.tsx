@@ -14,7 +14,7 @@ export default function CopyAddressBox({ address }:{address:string}) {
 
   return (
     <div className="bg-primary text-white font-mono text-lg px-6 py-4 flex items-center justify-between gap-4 neo-border neo-shadow">
-      <span className="truncate text-white">{address}</span>
+      <span className="truncate text-lg text-white">{address}</span>
       <button
         onClick={handleCopy}
         className="p-2 bg-black text-white neo-border neo-shadow hover:scale-110 transition-transform"
