@@ -35,7 +35,7 @@ export default function HomePage() {
           </div>
           <div className="bg-black border-4 border-primary p-8 neo-shadow max-w-4xl mx-auto mb-12 transform rotate-1">
             <p className="text-2xl md:text-3xl font-bold mb-4">Where Charts Explode & Money Rains.</p>
-            <CopyAddressBox address={"618686GJSGUGSDUTT16USGU"} />
+            <CopyAddressBox address={"COMING SOON"} />
             <p className="text-xl font-bold text-white mt-4">LIVE ON PUMP.FUN</p>
           </div>
 
@@ -174,15 +174,15 @@ export default function HomePage() {
               <span className="text-4xl font-black text-white glitch-text">GREEN</span>
             </div>
             <div className="flex gap-8">
-              <a href="#" className="text-white hover:text-primary font-black text-xl transition-colors transform hover:scale-110">
-                TWITTER
+              <a href="https://x.com/greensolanax" className="text-white hover:text-primary font-black text-xl transition-colors transform hover:scale-110">
+                X.COM
               </a>
-              <a href="#" className="text-white hover:text-secondary font-black text-xl transition-colors transform hover:scale-110">
+              {/* <a href="#" className="text-white hover:text-secondary font-black text-xl transition-colors transform hover:scale-110">
                 DISCORD
               </a>
               <a href="#" className="text-white hover:text-accent font-black text-xl transition-colors transform hover:scale-110">
                 TELEGRAM
-              </a>
+              </a> */}
             </div>
           </div>
 
