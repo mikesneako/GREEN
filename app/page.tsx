@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card"
 import Image from "next/image"
 import moon from "@/components/asset/moon.png"
 import logo from "@/components/asset/logo.png"
+import pump from "@/components/asset/logo.webp"
 import CopyAddressBox from "@/components/copy-address"
 
 export default function HomePage() {
@@ -41,9 +42,9 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button
               size="lg"
-              className="bg-primary text-white font-black text-2xl px-12 py-6 neo-border neo-shadow neo-hover transform -rotate-2 bounce-crazy"
+              className="bg-primary text-white font-black md:text-2xl px-12 py-6 neo-border neo-shadow neo-hover transform -rotate-2 bounce-crazy"
             >
-              GET GREEN NOW! 🚀
+              GET GREEN NOW! <Image src={pump} alt="green" width={24} height={24} className="inline-block ml-2" />
             </Button>
           </div>
         </div>
@@ -149,13 +150,13 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <Button
               size="lg"
-              className="bg-primary text-green-500 font-black text-3xl px-16 py-8 neo-border neo-shadow neo-hover transform -rotate-2 bounce-crazy"
+              className="bg-primary text-green-500 font-black md:text-3xl px-16 py-8 neo-border neo-shadow neo-hover transform -rotate-2 bounce-crazy"
             >
               BUY GREEN NOW! 💵📈
             </Button>
             <Button
               size="lg"
-              className="bg-accent text-black font-black text-3xl px-16 py-8 neo-border-yellow neo-shadow-yellow neo-hover transform rotate-2"
+              className="bg-accent text-black font-black md:text-3xl px-16 py-8 neo-border-yellow neo-shadow-yellow neo-hover transform rotate-2"
             >
               JOIN COMMUNITY! 🚀
             </Button>
