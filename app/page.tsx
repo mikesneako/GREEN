@@ -17,9 +17,9 @@ export default function HomePage() {
           <span className="text-3xl font-black text-white glitch-text">GREEN</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
-          <Button className="bg-accent text-black font-black text-lg px-6 py-3 neo-border-yellow neo-shadow-yellow neo-hover transform rotate-1">
+           <a href="https://pump.fun/coin/HHuqzAm1KkCfzBSmyfwwqiYsxzuuoyHfGecTgzNXpump"><Button className="bg-accent text-black font-black text-lg px-6 py-3 neo-border-yellow neo-shadow-yellow neo-hover transform rotate-1">
             BUY GREEN!
-          </Button>
+          </Button></a>
         </nav>
       </header>
 
@@ -35,17 +35,17 @@ export default function HomePage() {
           </div>
           <div className="bg-black border-4 border-primary p-8 neo-shadow max-w-4xl mx-auto mb-12 transform rotate-1">
             <p className="text-2xl md:text-3xl font-bold mb-4">Where Charts Explode & Money Rains.</p>
-            <CopyAddressBox address={"COMING SOON"} />
+            <CopyAddressBox address={"HHuqzAm1KkCfzBSmyfwwqiYsxzuuoyHfGecTgzNXpump"} />
             <p className="text-xl font-bold text-white mt-4">LIVE ON PUMP.FUN</p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button
+             <a href="https://pump.fun/coin/HHuqzAm1KkCfzBSmyfwwqiYsxzuuoyHfGecTgzNXpump"><Button
               size="lg"
               className="bg-primary text-white font-black md:text-2xl px-12 py-6 neo-border neo-shadow neo-hover transform -rotate-2 bounce-crazy"
             >
               GET GREEN NOW! <Image src={pump} alt="green" width={24} height={24} className="inline-block ml-2" />
-            </Button>
+            </Button></a>
           </div>
         </div>
       </section>
@@ -148,12 +148,13 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
-            <Button
+            <a href="https://pump.fun/coin/HHuqzAm1KkCfzBSmyfwwqiYsxzuuoyHfGecTgzNXpump"><Button
               size="lg"
+             
               className="bg-primary text-green-500 font-black md:text-3xl px-16 py-8 neo-border neo-shadow neo-hover transform -rotate-2 bounce-crazy"
             >
               BUY GREEN NOW! 💵📈
-            </Button>
+            </Button></a>
             <Button
               size="lg"
               className="bg-accent text-black font-black md:text-3xl px-16 py-8 neo-border-yellow neo-shadow-yellow neo-hover transform rotate-2"
